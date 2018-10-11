@@ -1,6 +1,7 @@
 # Elpis
 This is the codefundo++ project repo of team Alpha Q.
-Fact - ELpis is the Greek God of Hope.
+
+Fact - Elpis is the Greek God of Hope.
 
 ### Plan
 We are creating an android app that helps the people in need connect to the volunteers who are ready to help people.
