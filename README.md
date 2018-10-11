@@ -13,5 +13,5 @@ The app will be having a simple UX through which any user can interact with the 
 
 ### Technologies used
 Android Studio, Azure, Git, GitHub, Node.js, Python, Java, Kotlin
-#### Libraries 
+- #### Libraries used
 Retrofit, Butterknife, GSON, Glide, Espresso, Picasso, Calligraphy, Timber
