@@ -16,9 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".send_request"
+            android:label="Send Request" />
+        <activity android:name=".volunteer"
+            android:label="Volunteer"></activity>
     </application>
 
 </manifest>
