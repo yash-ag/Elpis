@@ -22,9 +22,9 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".send_request"
-            android:label="Send Request" />
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".volunteer"
-            android:label="Volunteer"></activity>
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
