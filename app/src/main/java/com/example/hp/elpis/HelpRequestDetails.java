@@ -1,13 +1,13 @@
 package com.example.hp.elpis;
 
 //Contains information about the Help Request
-public class HelpRequest {
+public class HelpRequestDetails {
     private String mLocation;
     private int mNumberOfPeople;
     private boolean mDoctorRequired;
-    private long mComment;
+    private String mComment;
 
-    public HelpRequest(String location, int numberOfPeople, boolean doctorRequired, long comment)
+    public HelpRequestDetails(String location, int numberOfPeople, boolean doctorRequired, String comment)
     {
         mLocation = location;
         mNumberOfPeople = numberOfPeople;
@@ -28,7 +28,7 @@ public class HelpRequest {
         return mNumberOfPeople;
     }
 
-    public long getComment() {
+    public String getComment() {
         return mComment;
     }
 }
