@@ -21,9 +21,9 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".send_request"
+        <activity android:name=".GenerateRequest"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".volunteer"
+        <activity android:name=".Volunteer"
             android:parentActivityName=".MainActivity"/>
     </application>
 

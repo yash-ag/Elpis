@@ -21,19 +21,19 @@ public class MainActivity extends AppCompatActivity {
         send_request.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent requestIntent = new Intent(MainActivity.this, send_request.class);
+                Intent requestIntent = new Intent(MainActivity.this, GenerateRequest.class);
                 startActivity(requestIntent);
             }
         });
 
 
-        //OnClickListener for volunteer button
+        //OnClickListener for Volunteer button
         Button volunteer = (Button) findViewById(R.id.volunteer);
 
         volunteer.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent requestIntent = new Intent(MainActivity.this, send_request.class);
+                Intent requestIntent = new Intent(MainActivity.this, GenerateRequest.class);
                 startActivity(requestIntent);
             }
         });
