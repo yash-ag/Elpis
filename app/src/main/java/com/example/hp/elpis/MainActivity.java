@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         volunteer.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent requestIntent = new Intent(MainActivity.this, GenerateRequest.class);
+                Intent requestIntent = new Intent(MainActivity.this, Volunteer.class);
                 startActivity(requestIntent);
             }
         });
