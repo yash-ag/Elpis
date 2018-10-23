@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
@@ -34,7 +35,7 @@ public class GenerateRequest extends AppCompatActivity {
     private EditText mCommentEdit;
     private CheckBox mDoctorRequiredCheck;
     private Button mSendRequest;
-    private Button mGetLocation;
+    private ImageButton mGetLocation;
 
     private FusedLocationProviderClient mFusedLocationClient;
 
@@ -89,10 +90,10 @@ public class GenerateRequest extends AppCompatActivity {
         mDoctorRequiredCheck = (CheckBox) findViewById(R.id.doctor_required);
         mCommentEdit = (EditText) findViewById(R.id.comments);
 
-        mSendRequest = findViewById(R.id.send_request);
+        mSendRequest = (Button)findViewById(R.id.send_request);
         mSendRequest.setOnClickListener(mRequestListener);
 
-        mGetLocation = (Button) findViewById(R.id.get_location);
+        mGetLocation = (ImageButton) findViewById(R.id.get_location);
         mGetLocation.setOnClickListener(mLocationListener);
 
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);

@@ -1,122 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/top_color"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="16dp"
-            android:layout_weight="1"
-            android:background="#4285F4" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="16dp"
-            android:layout_weight="1"
-            android:background="#34A853" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="16dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#4285F4" />
-
-        <ImageView
-            android:layout_width="16dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FBBC05" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentRight="true"
-        android:orientation="vertical">
-
-        <ImageView
-            android:layout_width="16dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#34A853" />
-
-        <ImageView
-            android:layout_width="16dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#EA4335" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="16dp"
-            android:layout_weight="1"
-            android:background="#FBBC05" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="16dp"
-            android:layout_weight="1"
-            android:background=" #EA4335" />
-
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/buttons"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/send_req"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginBottom="20dp"
-            android:background="@drawable/button_shape"
-            android:elevation="4dp"
-            android:fontFamily="@font/roboto_medium"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/send_req"
+            android:fontFamily="@font/ubuntu_bold"
             android:text="@string/send_request"
             android:textAllCaps="true"
-            android:textColor="#ffffff"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="48sp" />
 
 
         <Button
             android:id="@+id/volunteer"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/button_shape"
-            android:elevation="4dp"
-            android:fontFamily="@font/roboto_medium"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/volunteer"
+            android:fontFamily="@font/ubuntu_bold"
             android:text="@string/volunteer"
             android:textAllCaps="true"
-            android:textColor="#ffffff"
-            android:textSize="24sp" />
+            android:textColor="@color/white"
+            android:textSize="48sp" />
 
     </LinearLayout>
 
