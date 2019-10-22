@@ -14,6 +14,6 @@ The app takes data like loaction(automatic/manual), supplies required etc. and s
 The app will be having a simple UX through which any user can interact with the app easily. The app will be helpful in post-disaster situations. 
 
 ### Technologies used
-Android Studio, Azure, Git, GitHub, Node.js, Python, Java, Kotlin
+Android Studio, Azure, Git, GitHub, Node.js, Python, Java
 - #### Libraries used
 Retrofit, Butterknife, GSON, Glide, Espresso, Picasso, Calligraphy, Timber
